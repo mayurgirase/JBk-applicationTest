@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JavaByKiran Application Test Automation]">
+  <listeners>
+    <listener class-name="com.jbk.qa.extentreportlistner.ExtentReportListner"/>
+  </listeners>
+  <test name="JBK Test cases(failed)">
+    <classes>
+      <class name="com.jbk.qa.testcase.ContactTest">
+        <methods>
+          <include name="Contact_Us_infoTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+          <include name="contacttitle"/>
+        </methods>
+      </class> <!-- com.jbk.qa.testcase.ContactTest -->
+      <class name="com.jbk.qa.testcase.JavaSyllabusTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyj2ee_contentTest"/>
+          <include name="verifytools_contentTest"/>
+          <include name="javasyllabustitle"/>
+          <include name="Setup"/>
+          <include name="verifyweserver_applicationserver_contentTest"/>
+          <include name="whatsapplinkTest"/>
+          <include name="javsyllabuslinkTest"/>
+        </methods>
+      </class> <!-- com.jbk.qa.testcase.JavaSyllabusTest -->
+    </classes>
+  </test> <!-- JBK Test cases(failed) -->
+</suite> <!-- Failed suite [JavaByKiran Application Test Automation] -->

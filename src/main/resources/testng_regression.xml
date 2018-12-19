@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JavaByKiran Application Test Automation">
+  <test  name="JBK Test cases">
+    <classes>
+     	<class name="com.jbk.qa.testcase.Hometst"/>
+        <class name="com.jbk.qa.testcase.Aboutsirtest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
