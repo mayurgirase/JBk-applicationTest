@@ -32,7 +32,7 @@ public class Hometst extends Base{
 	@Test(priority=1)
 	public void HomepageTitleTest() {
 		String title=homepg.validatepagetitle();
-		Assert.assertEquals(title, "Best Industrial Java Classes | Selenium Training in Pune","Home page title not matched");
+		Assert.assertEquals(title, "Best Industrial Java Classes | Selenium Training in Pune","Home page title matched");
 		
 	}
 	
